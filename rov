@@ -1,1 +1,31 @@
-Hi, im Vor Sorevilo
+Define two structs:
+
+Course → contains courseName[100] and units (int).
+
+Student → contains studentName[100], idNumber (int), and a nested Course enrolled.
+
+Write functions:
+
+void inputStudent(Student *s) → input student’s name and ID.
+
+void inputCourse(Course *c) → input course name and units.
+
+void enrollStudent(Student *s, Course *c) → assign a course to the student.
+
+void updateCourse(Course *c, char *newCourseName, int newUnits) → update the course details.
+
+void displayStudent(Student *s) → display student’s details and their enrolled course.
+
+In main():
+
+Ask for student info.
+
+Ask for course info.
+
+Enroll the student in the course.
+
+Display student + course info.
+
+Then update the course (use updateCourse).
+
+Display updated info.
